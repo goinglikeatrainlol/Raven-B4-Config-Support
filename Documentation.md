@@ -1,7 +1,7 @@
 # Raven B4's Config Support!
 ### A detailed Documentation about Raven B4's Config Support!
 
-![Book logo](https://github.com/goinglikeatrainlol/Raven-B4-Config-Support/blob/main/Raven%20B4%20Documentation%20Background.png)
+![Book logo](https://github.com/goinglikeatrainlol/Raven-B4-Config-Support/blob/main/Raven%20B4%20Background.png)
 ## Features that are currently included:
 - Tabs
 - Modules
