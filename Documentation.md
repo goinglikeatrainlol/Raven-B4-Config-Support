@@ -18,11 +18,11 @@
 ## Raven B4 Loadstring (REQUIRED)
 Raven B4 with all the Modules included so you can start without having to spend alot of time doing the basics!
 ```lua
-local RavenConfig = loadstring(game:HttpGet(('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20NoModules%20Loader')))()
+local RavenConfig = loadstring(game:HttpGet('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20NoModules%20Loader'))()
 ```
 Emtpy Raven B4 so you can start from sratch! (Recommended for Roblox Games that Raven B4 doesn't support!)
 ```lua
-local RavenConfig = loadstring(game:HttpGet(('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20Main%20Loader')))()
+local RavenConfig = loadstring(game:HttpGet('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20Main%20Loader'))()
 ```
 Pick one of the above, but dont put them both in since it will mess up everything!
 
