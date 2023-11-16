@@ -57,7 +57,7 @@ StartingState = 'bool' - Sets the State of the Module (Note that this only works
 ]]
 ```
 
-DO NOT NAME 2 MODULES THE SAME NAME IF YOU WANT IT TO FUNCTION PROPERLY!
+DON'T HAVE 2 MODULES WITH THE SAME NAME IF YOU WANT IT TO FUNCTION PROPERLY!
 
 ## Creating a Info Card
 ```lua
