@@ -150,10 +150,10 @@ If you use any of these Whitelists or Blacklists, put them above your loadstring
 `Lua Obfuscators` are something you want to keep in mind when creating your configs, sadly Raven B4 doesn't offer any obfuscators for lua, but I do have some to recommend, mainly MoonSec V3 since it offers pretty good protection that doesn't allow people to skid of your configs + it is 100% free!
 (You can also pay for an obfuscator if you're rich enough, but MoonSec V3 offers pretty good lua protection!)
 
-## Webhook/IP log/Rat Protection!
+## HTTP interceptor!
 `Webhooks` are also something I kept in mind when creating Raven B4 since most people use it for malicious intent!
 
-Thats why Raven B4 has a Anti-Webhook built in that allows you to execute Configs without worrying about it doing something in the background. (This sadly also means Webhooks won't work with Raven B4!)
+Thats why Raven B4 has a HTTP interceptor built in that allows you to execute Configs without worrying about it doing something in the background.
 
 ## Uninjecting Raven B4
 `COMING SOON!`
