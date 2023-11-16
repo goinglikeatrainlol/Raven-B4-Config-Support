@@ -6,7 +6,7 @@ shared.WaterMarkColor = Color3.fromRGB(255,255,255)
 --shared.RavenBlacklist = {"ahsf-ghjfk-ijrh-rtes-3thr"} you have to put a HWID of a player in this Whitelist Table to Whitelist them!
 --shared.RavenWhitelist = {"ahsf-ghjfk-ijrh-rtes-3thr"} you have to put a HWID of a player in this Blacklist Table to blacklist them!
 
-RavenConfig = loadstring(game:HttpGet("https://raw.githubusercontent.com/goinglikeatrainlol/RavenB4Roblox/main/Raven%20Main%20Loader"))()
+local RavenConfig = loadstring(game:HttpGet("https://raw.githubusercontent.com/goinglikeatrainlol/RavenB4Roblox/main/Raven%20Main%20Loader"))()
 
 RavenConfig:createnotification("Config Support Loaded!",5)
 
