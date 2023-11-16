@@ -45,6 +45,7 @@ As Tabs you can either put it as `Combat` `Blatant` `Render` `Utility` `Client` 
 ```lua
 Module = Tab:CreateToggle({
     Name = "Name",
+    StartingState = false,
     Callback = function(Callback)
 end})
 
@@ -71,6 +72,7 @@ Text = 'string' - The Text you want to be shown in the Info Card.
 ```lua
 Module:CreateToggle({
     Name = "Name",
+    StartingState = false,
     Callback = function(Callback)
 end})
 
@@ -85,6 +87,7 @@ StartingState = 'bool' - Sets the State of the Module (Note that this only works
 ```lua
 Module:CreateSlider({
     Name = "Name",
+    Default = 50,
     Min = 0,
     Max = 100,
     Callback = function(Callback)
@@ -93,10 +96,10 @@ Module:CreateSlider({
 
 --[[
 Name = 'string' - The name of the slider.
+Default = 'number' - Sets the State of the Module (Note that this only works when the Player inject Raven B4 for the FIRST TIME, else the SaveSystem takes over!)
 Min = 'number' - The minimum value of the slider.
 Max - 'number' - The maxium value of the slider.
 Callback = 'function' - The function of the slider.
-Default = 'number' - Sets the State of the Module (Note that this only works when the Player inject Raven B4 for the FIRST TIME, else the SaveSystem takes over!)
 ]]
 ```
 
