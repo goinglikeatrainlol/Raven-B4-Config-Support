@@ -131,7 +131,7 @@ shared.RavenConfigName = "My Config Name"
 ```
 `shared.RavenConfigName` Is what ur Textfile is going to be called, put this above the Loadstring!
 
-If this is left blank, the Textfilename will be called `Default Config`
+If this is left blank, the Name of your Textfile will be called `Default Config`
 
 ## Custom WaterMark
 ```lua
