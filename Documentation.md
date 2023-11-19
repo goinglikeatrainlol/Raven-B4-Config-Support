@@ -27,6 +27,7 @@ shared.RavenB4Started = true
 local RavenConfig = loadstring(game:HttpGet('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20Main%20Loader'))()
 ```
 Pick one of the above, but dont put them both in since it will mess up everything!
+
 `shared.RavenB4Started` is very IMPORTANT to detect your making a config. (IF YOU DO NOT HAVE `shared.RavenB4Started` THE CONFIGS WON'T WORK!)
 
 
