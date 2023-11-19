@@ -28,7 +28,7 @@ local RavenConfig = loadstring(game:HttpGet('https://github.com/goinglikeatrainl
 ```
 Pick one of the above, but dont put them both in since it will mess up everything!
 
-`shared.RavenB4Started` is very IMPORTANT to detect your making a config. (IF YOU DO NOT HAVE `shared.RavenB4Started` THE CONFIGS WON'T WORK!)
+`shared.RavenB4Started` is very IMPORTANT since it tells Raven B4 that your making a Config. (IF YOU DO NOT HAVE `shared.RavenB4Started` THE CONFIGS WON'T WORK!)
 
 
 ## Creating a Tab
