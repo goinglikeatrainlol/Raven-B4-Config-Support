@@ -18,13 +18,16 @@
 ## Raven B4 Loadstring (REQUIRED)
 Raven B4 with all the Modules included so you can start without having to spend alot of time doing the basics!
 ```lua
+shared.RavenB4Started = true
 local RavenConfig = loadstring(game:HttpGet('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20NoModules%20Loader'))()
 ```
 Emtpy Raven B4 so you can start from sratch! (Recommended for Roblox Games that Raven B4 doesn't support!)
 ```lua
+shared.RavenB4Started = true
 local RavenConfig = loadstring(game:HttpGet('https://github.com/goinglikeatrainlol/RavenB4Roblox/blob/main/Raven%20Main%20Loader'))()
 ```
 Pick one of the above, but dont put them both in since it will mess up everything!
+`shared.RavenB4Started` is very IMPORTANT to detect your making a config. (IF YOU DO NOT HAVE `shared.RavenB4Started` THE CONFIGS WON'T WORK!)
 
 
 ## Creating a Tab
@@ -112,6 +115,11 @@ Message = 'string' - the message you want to tell the Player.
 Time = 'number' - the amount of time you want the Notification to stay.
 ]]
 ```
+## Finishing your Config! (REQUIRED!)
+```lua
+shared.RavenB4Completed = true
+```
+Put this at the end of your Code to make Raven B4 save your Config!
 
 # Exclusive Raven B4 features!
 These are exclusive to Raven B4 since it adds complex features with a easy way to configure them!
