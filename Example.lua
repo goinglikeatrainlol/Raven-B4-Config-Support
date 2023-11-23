@@ -1,5 +1,6 @@
 -- AN EXAMPLE OF HOW YOU CAN MAKE A CONFIG!
 -- Execute this in ur executor and see what happens!
+shared.RavenB4Started = true -- REQUIRED!!!!!!
 shared.RavenConfigName = 'Default Config' --Whatever your Config name is!
 shared.WaterMark = "Random Config Name"
 shared.WaterMarkColor = Color3.fromRGB(255,255,255)
@@ -52,3 +53,4 @@ FinalModule:CreateToggle({
     Callback = function(Callback) 
     print(Callback)
 end})
+shared.RavenB4Completed = true --- REQUIRED!!!!
