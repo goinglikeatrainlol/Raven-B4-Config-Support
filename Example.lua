@@ -48,6 +48,14 @@ FinalModule = Utility:CreateToggle({
         print(Callback)
     end
 })
+FinalModule:CreateDropDown({
+    Name = "FinalDropDown",
+    Title = "Final",
+    DefaultOption = "Test1",
+    Options = {"Test1","Test2","Test3"},
+    Callback = function(Callback)
+        print(Callback)
+end})
 FinalModule:CreateToggle({
     Name = "Final Mini Button",
     Callback = function(Callback) 
