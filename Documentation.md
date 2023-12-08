@@ -106,7 +106,24 @@ Max - 'number' - The maxium value of the slider.
 Callback = 'function' - The function of the slider.
 ]]
 ```
+## Creating a DropDown
+```lua
+Module:CreateDropDown({
+    Name = "Name",
+    Title = "Testing",
+    DefaultOption = "Test1",
+    Options = {"Test1","Test2"},
+    Callback = function()
+end})
 
+--[[
+Name = 'string' - The name of the DropDown.
+Title = 'string' - The name that will be displayed on the dropdown!
+DefaultOption = 'string' - The Default option that will be displayed when you open up Raven B4 for the first time! (DefaultOption only works if the option is in the Option Table)
+Options = 'table' - What the Dropdown will contain!
+Callback = 'function' - Callback of the option selected.
+]]
+```
 ## Creating a Notification
 ```lua
 RavenConfig:createnotification("Message",Time)
